@@ -21,3 +21,105 @@ body{
     font-family: var(--main-font-family);
 }
 
+.menu-link{
+    color: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+color: #4D5AE5;
+}
+
+.contacts-link{
+    color: #434455;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.hero{
+    background-color: var(--accent-color);
+}
+
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.60;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+div{
+    line-height: 0.95;
+}
+
+.hero-modal-button{
+    color: #fff;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.studio-item-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.studio-descr{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.work-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.contacts{
+    background-color: #F4F4FD;
+}
+
+.contacts-item{
+    background: #fff;
+}
+
+.contacts-employee{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.contacts-job{
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.footer{
+    background-color: var(--accent-color);
+}
+
+.footer-descr{
+    color: #fff;
+}
