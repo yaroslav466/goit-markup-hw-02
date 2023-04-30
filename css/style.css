@@ -1,3 +1,23 @@
 :root{
-   
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family-family: 'Raleway', sans-serif;
+    --accent-color: #2E2F42; 
 }
+
+.list{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+
+body{
+    font-family: var(--main-font-family);
+}
+
