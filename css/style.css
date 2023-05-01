@@ -24,8 +24,23 @@ body{
     background-color: #fff;
 }
 
+.logo-web{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4D5AE5;
+    font-family: var(--secondary-font-family-family);
+
+}
+
+.logo-studio{
+   color: #2e2f42;
+}
+
 .menu-link{
-    color: var(--accent-color);
+    color: var(--accent-color) ;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -34,19 +49,19 @@ body{
 
 .menu-link:hover,
 .menu-link:focus{
-color: #4D5AE5;
+color: #404bbf;
 }
 
 .contacts-link{
     color: #434455;
     font-size: 16px;
     line-height: 24px;
-
+    letter-spacing: 0.02em;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .hero{
@@ -56,7 +71,7 @@ color: #4D5AE5;
 .hero-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.60;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
@@ -71,6 +86,15 @@ color: #4D5AE5;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-modal-button:hover,
+.hero-modal-button:focus{
+    background-color: #404BBF;
 }
 
 .studio-item-title{
@@ -91,14 +115,24 @@ color: #4D5AE5;
 .work-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+    text-transform: capitalize;
 }
 
 .contacts{
     background-color: #F4F4FD;
+}
+
+.contacts-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--accent-color);
 }
 
 .contacts-item{
@@ -116,13 +150,17 @@ color: #4D5AE5;
 .contacts-job{
     font-size: 16px;
     line-height: 24px;
-
     letter-spacing: 0.02em;
-    color: var(--accent-color);
+    color: #434455;
 }
 
 .footer{
     background-color: var(--accent-color);
+}
+
+
+.logo-studio {
+    color: #fff;
 }
 
 .footer-descr{
