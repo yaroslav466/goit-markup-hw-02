@@ -10,6 +10,7 @@
 
 .link{
     text-decoration: none;
+    font-style: normal;
 }
 
 button{
@@ -122,4 +123,37 @@ div{
 
 .footer-descr{
     color: #fff;
+}
+
+.portfolio-btn{
+    color: #4D5AE5;
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background: #404BBF;
+    color: #fff;
+}
+
+.portfolio-work{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.portfolio-descr{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
