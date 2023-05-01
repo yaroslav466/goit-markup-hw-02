@@ -42,6 +42,11 @@ color: #4D5AE5;
 
 }
 
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #4D5AE5;
+}
+
 .hero{
     background-color: var(--accent-color);
 }
