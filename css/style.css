@@ -1,6 +1,6 @@
 :root{
     --main-font-family: 'Roboto', sans-serif;
-    --secondary-font-family-family: 'Raleway', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
     --accent-color: #2E2F42; 
 }
 
@@ -24,19 +24,19 @@ body{
     background-color: #fff;
 }
 
-.logo-web{
+.logo{
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4D5AE5;
-    font-family: var(--secondary-font-family-family);
+    font-family: var(--secondary-font-family);
 
 }
 
 .logo-studio{
-   color: #2e2f42;
+   color: var(--accent-color);
 }
 
 .menu-link{
